@@ -2,32 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+:root {
+  --color-primary: #098145;
+  --color-secondary: #D1D1D1;
+  --color-background: #151718;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--color-background);
+  color: var(--color-secondary);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+.wave-shape {
+  clip-path: polygon(100% 100%, 0% 100% , 0.00% 4.61%, 2.86% 4.08%, 5.71% 3.49%, 8.57% 2.86%, 11.43% 2.24%, 14.29% 1.68%, 17.14% 1.19%, 20.00% 0.82%, 22.86% 0.58%, 25.71% 0.50%, 28.57% 0.57%, 31.43% 0.80%, 34.29% 1.17%, 37.14% 1.65%, 40.00% 2.21%, 42.86% 2.83%, 45.71% 3.45%, 48.57% 4.05%, 51.43% 4.58%, 54.29% 5.01%, 57.14% 5.32%, 60.00% 5.48%, 62.86% 5.48%, 65.71% 5.33%, 68.57% 5.03%, 71.43% 4.61%, 74.29% 4.08%, 77.14% 3.49%, 80.00% 2.86%, 82.86% 2.24%, 85.71% 1.68%, 88.57% 1.19%, 91.43% 0.82%, 94.29% 0.58%, 97.14% 0.50%, 100.00% 0.57%);
+
 }
