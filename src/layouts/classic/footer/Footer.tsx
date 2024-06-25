@@ -20,10 +20,10 @@ const Footer = () => {
             <div className="flex gap-10">
               <div className="flex items-center">
                 <div>
-                  <h5 className="text-white font-bold mb-3 text-lg">Nous trouvez c'est facile !</h5>
+                  <h5 className="text-white font-bold mb-3 text-lg">Nous trouvez c&apos;est facile !</h5>
                   <p>Centre commercial Loubet</p>
                   <p>9 Avenue de Toulouse</p>
-                  <p>31240, L'Union</p>
+                  <p>31240, L&apos;Union</p>
                   <p>05 62 89 20 05</p>
                 </div>
               </div>

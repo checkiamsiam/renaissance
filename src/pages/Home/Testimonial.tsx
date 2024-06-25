@@ -6,7 +6,7 @@ const Testimonial = () => {
         <div className="container mx-auto pb-28 px-5">
           <h3 className="text-center font-bold text-5xl">Témoignages</h3>
           <p className="text-center mt-6 lg:px-28 px-5">
-            Nous mettons également à votre disposition une gamme d'accessoires pour l'installation de vos radiateurs, tels que joints, bouchons,
+            Nous mettons également à votre disposition une gamme d&apos;accessoires pour l&apos;installation de vos radiateurs, tels que joints, bouchons,
             purges, pieds en fonte et fixations murales. De plus, nous offrons une large variété de thermoplongeurs permettant de transformer vos
             radiateurs en versions électriques.
           </p>
